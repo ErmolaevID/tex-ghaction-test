@@ -1,0 +1,31 @@
+\documentclass[a4paper,12pt]{book}
+
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{graphicx}
+
+
+\author{Ермолаев Илья \thanks{Сноска какая-то}}
+\title{Мой первый документ}
+\date{\today}
+
+\begin{document}
+	\maketitle
+	\pagebreak
+	Изучаю этот текстовый редактор % это комментарий
+	\textbf{Жирный шрифт}, \textit{а это курсив}, \underline{а можно и подчеркнутый}
+	\begin{itemize}
+		\item Первый элемент списка
+		\item Второй элемент списка
+	\end{itemize}
+	\begin{enumerate}
+		\item Один
+		\item Два
+	\end{enumerate}
+	А еще я могу сюда закинуть формулу $E=mc^2$
+	\[ T^{i_1 i_2 \dots i_p}_{j_1 j_2 \dots j_q} = T(x^{i_1},\dots,x^{i_p},e_{j_1},\dots,e_{j_q}) \]
+	
+	\part{Первый}
+	\part{Второй}
+\end{document}
